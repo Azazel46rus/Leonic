@@ -81,6 +81,10 @@ html {
   display: inline-block;
 }
 
+btn.btn-big {
+  padding: 20px 60px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -127,7 +131,8 @@ html {
 /* Hero */
 
 .section-hero{
-  
+  background: url(/img/Overlay.jpg) right center no-repeat white;
+  background-size: contain;
 }
 
 .container-hero {
@@ -140,15 +145,43 @@ html {
 }
 
 .section-hero-heading {
-  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #1c1c1c;
 }
 
 .section-hero-description {
-  margin-bottom: 30px;
+  margin-bottom: 33px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #787878;
+}
+
+.hero-action {
+  display: inline-block;
 }
 
 .btn-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 10px;
+  font-size: 11px;
+  line-height: 1px;
+  color: #787878;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ssl-icon {
+  display: inline-block;
+  width: 13px;
+  height: 17px;
+  background-size: contain;
+  margin-right: 10px;
 }
 
 /* Do section */
